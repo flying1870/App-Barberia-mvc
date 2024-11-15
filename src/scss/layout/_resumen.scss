@@ -1,0 +1,22 @@
+@use 'base/variables' as v;
+
+
+.container-resumen {
+    p {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        color: v.$verde;
+        font-weight: v.$bold;
+        font-size: 2rem;
+    }
+  }
+  .resumen-servicios {
+    padding: 3rem 0;
+    border-bottom: 1px solid v.$verde;
+
+    h3 {
+        color: v.$verde;
+    }
+   }
